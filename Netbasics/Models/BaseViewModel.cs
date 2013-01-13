@@ -4,9 +4,9 @@ using System.ComponentModel;
 
 namespace Netbasics.Models
 {
-    public delegate void ModelChangedEventHandler(BaseFormModel sender);
+    public delegate void ModelChangedEventHandler(BaseViewModel sender);
 
-    public abstract class BaseFormModel : INotifyPropertyChanged, IChangeTracking
+    public abstract class BaseViewModel : INotifyPropertyChanged, IChangeTracking
     {
         private readonly Dictionary<string, object> _values = new Dictionary<string, object>();
         private bool _isChanged;
