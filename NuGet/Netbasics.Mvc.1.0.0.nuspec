@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Netbasics</id>
+        <version>1.0.0</version>
+        <title />
+        <authors>Vlad Ogay</authors>
+        <owners>Vlad Ogay</owners>
+        <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Some basic things and helpers:
+* Exceptions
+* Models
+* Test helpers</description>
+        <copyright>Vlad Ogay</copyright>
+    </metadata>
+    <files>
+        <file src="..\Netbasics\bin\Debug\Netbasics.dll" target="Netbasics.dll" />
+        <file src="..\Netbasics\bin\Debug\Netbasics.pdb" target="Netbasics.pdb" />
+    </files>
+</package>
