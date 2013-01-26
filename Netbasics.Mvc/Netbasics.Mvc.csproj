@@ -53,6 +53,8 @@
     <Compile Include="Infrastructure\JsonErrorHandlerAttribute.cs" />
     <Compile Include="Infrastructure\JsonStatus.cs" />
     <Compile Include="Infrastructure\WebPageModel.cs" />
+    <Compile Include="Navigation\NavItem.cs" />
+    <Compile Include="Navigation\NavUrl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
